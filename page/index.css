@@ -20,9 +20,9 @@
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__image/place__image.css);
-@import url(../blocks/place/__website/place__website.css);
-@import url(../blocks/place/__website/_url-heading.css/place__website_url-heading.css);
-@import url(../blocks/place/__website/_link/place__website_link.css);
+@import url(../blocks/place-website/place-website.css);
+@import url(../blocks/place-website/__url-heading.css/place-website__url-heading.css);
+@import url(../blocks/place-website/__link/place-website__link.css);
 @import url(../blocks/place/__text/place__text.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/cover/cover.css);
