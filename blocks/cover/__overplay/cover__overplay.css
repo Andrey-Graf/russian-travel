@@ -1,0 +1,50 @@
+.cover__overplay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    max-width: 100%;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    text-decoration: none;
+    min-height: 740px;
+}
+
+.cover__overplay:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: #2a2c2f;
+    opacity: 0.3;
+    transition: opacity 1s ease-in-out;
+    z-index: -1;
+}
+
+.cover__overplay:hover:before {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__overplay {
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__overplay {
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__overplay {
+        min-height: 200px;
+    }
+}
