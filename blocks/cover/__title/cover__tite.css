@@ -1,7 +1,6 @@
 .cover__title {
     margin: 0 auto;
     max-width: 560px;
-    max-height: 152px;
     font-family: 'inter';
     font-style: normal;
     font-weight: 900;
@@ -12,11 +11,11 @@
     z-index: 1;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 540px) {
     .cover__title {
         max-width: 288px;
-        max-height: 70px;
         font-size: 32px;
         line-height: 35px;
+        margin-top: 33px;
     }
 }

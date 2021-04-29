@@ -1,5 +1,4 @@
 .place-website__link {
-    max-width: 456px;
     font-family: 'inter';
     font-style: normal;
     font-weight: normal;
@@ -12,16 +11,4 @@
 .place-website__link:hover {
     opacity: .8;
     transition: 1s linear;
-}
-
-@media screen and (max-width: 768px) {
-    .place-website__link {
-        max-width: 352px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .place-website__link {
-        max-width: 288px;
-    }
 }

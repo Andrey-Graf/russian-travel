@@ -1,6 +1,5 @@
 .header__lang-link {
-    width: 30px;
-    height: 28px;
+    min-width: 30px;
     padding: 0;
     margin-right: 18px;
     font-family: 'inter';
@@ -14,8 +13,7 @@
 }
 
 .header__lang-link:last-child {
-    width: 29px;
-    height: 28px;
+    min-width: 29px;
     text-decoration-line: none;
     margin-right: 0;
 }
@@ -27,35 +25,29 @@
 
 @media screen and (max-width: 1024px) {
     .header__lang-link {
-        width: 30px;
-        height: 28px;
+        min-width: 30px;
     }
     .header__lang-link:last-child{
-        width: 29px;
-        height: 28px;
+        min-width: 29px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .header__lang-link {
-        width: 30px;
-        height: 28px;
+        min-width: 30px;
     }
     .header__lang-link:last-child{
-        width: 29px;
-        height: 28px;
+        min-width: 29px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 540px) {
     .header__lang-link {
-        width: 22px;
-        height: 20px;
+        min-width: 22px;
         font-size: 18px;
         line-height: 20px;
     }
     .header__lang-link:last-child{
-        width: 22px;
-        height: 20px;
+        min-width: 22px;
     }
 }

@@ -1,12 +1,10 @@
 .header {
     position: relative;
     max-width: 1184px;
-    min-height: 52px;
     margin: 0 auto;
     padding: 28px 48px 0 48px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
+    display: grid;
+    grid-template-columns: 1fr repeat(2, min-content);
     align-items: flex-end;
 }
 
@@ -17,9 +15,8 @@
     
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 540px) {
     .header {
-        min-height: 42px;
         padding: 16px 16px 0 16px;
     }
 }

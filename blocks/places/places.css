@@ -1,32 +1,23 @@
 .places {
     position: relative;
-    max-width: 984px;
-    /* height: 3392px; */
-    height: 100%;
     margin: 0 auto;
     padding: 92px 148px 0 148px;
 }
 
 @media screen and (max-width: 1024px) {
     .places{
-        max-width: 928px;
-        /* height: 3292px; */
         padding: 92px 48px 0 48px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .places{
-        max-width: 720px;
-        /* height: 2808px; */
         padding: 88px 24px 0 24px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 540px) {
     .places{
-        max-width: 320px;
-        /* height: 5177px; */
         padding: 64px 0 0 0;
     }
 }

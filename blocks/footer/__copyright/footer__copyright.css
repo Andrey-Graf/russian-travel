@@ -1,11 +1,6 @@
 .footer__copyright {
-    position: absolute;
-    max-width: 186px;
-    width: 100%;
     margin: 0;
     padding: 0;
-    right: 48px;
-    bottom: 24px;
     font-family: 'inter';
     font-style: normal;
     font-weight: normal;
@@ -20,10 +15,9 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 540px) {
     .footer__copyright {
-        height: 14px;
-        line-height: 14px;
         left: 16px;
+        margin-top: 46px;
     }
 }
