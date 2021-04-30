@@ -2,7 +2,7 @@
     position: relative;
     margin: 0 auto;
     padding: 56px 148px 0 148px;
-    overflow: hidden;
+    font-family: 'Inter', Arial, sans-serif;
 }
 
 @media screen and (max-width: 1024px) {
@@ -16,10 +16,4 @@
         padding: 48px 0 0 0;
     }
     
-}
-
-@media screen and (max-width: 540px) {
-    .lead {
-        padding: 48px 0 0 0;
-    }
 }

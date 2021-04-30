@@ -2,6 +2,7 @@
     position: relative;
     margin: 0 auto;
     padding: 92px 442px 0 148px;
+    font-family: 'Inter', Arial, sans-serif;
 }
 
 @media screen and (max-width: 1024px) {

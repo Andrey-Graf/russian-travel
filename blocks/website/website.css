@@ -1,20 +1,20 @@
-.place-website {
-    max-width: 456px;
-    max-height: 46px;
+.website {
+    /* max-width: 456px;
+    max-height: 46px; */
     margin: 0;
     align-self: flex-end;
     grid-area: website;
 }
 
 @media screen and (max-width: 768px) {
-    .place-website {
-        max-width: 352px;
+    .website {
+        /* max-width: 352px; */
     }
 }
 
 @media screen and (max-width: 540px) {
-    .place-website {
-        max-width: 288px;
+    .website {
+        /* max-width: 288px; */
         margin-left: 16px;
     }
 }

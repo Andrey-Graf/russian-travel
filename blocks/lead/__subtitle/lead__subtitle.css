@@ -1,8 +1,6 @@
 .lead__subtitle {
     max-width: 640px;
-    margin: 0 auto;
-    padding: 32px 172px 0 172px;
-    font-family: 'inter';
+    margin: 32px auto 0;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
@@ -11,21 +9,9 @@
     color: #fff;
 }
 
-@media screen and (max-width: 1024px) {
-    .lead__subtitle {
-        padding: 32px 144px 0 144px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .lead__subtitle {
-        padding: 32px 64px 0 64px;
-    }
-}
-
 @media screen and (max-width: 540px) {
     .lead__subtitle {
-        padding: 16px 14px 0 18px;
+        margin: 16px auto 0;
         font-size: 16px;
         line-height: 20px;
     }
