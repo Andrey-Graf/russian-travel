@@ -1,5 +1,6 @@
 .intro {
     position: relative;
+    max-width: 690px;
     margin: 0 auto;
     padding: 92px 442px 0 148px;
     font-family: 'Inter', Arial, sans-serif;

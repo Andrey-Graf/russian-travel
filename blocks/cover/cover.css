@@ -1,7 +1,8 @@
 .cover {
     position: relative;
     max-width: 1184px;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0;
     padding: 92px 48px 0 48px;
     font-family: 'Inter', Arial, sans-serif;
 }

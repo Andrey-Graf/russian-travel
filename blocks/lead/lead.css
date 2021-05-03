@@ -1,5 +1,6 @@
 .lead {
     position: relative;
+    max-width: 984px;
     margin: 0 auto;
     padding: 56px 148px 0 148px;
     font-family: 'Inter', Arial, sans-serif;

@@ -1,15 +1,16 @@
 .place {
     position: relative;
+    max-width: 984px;
+    width: 100%;
     list-style: none;
     margin-top: 80px;
     padding: 0;
     display: grid;
-    /* grid-template-columns: 1fr minmax(1fr, min-content); */
-    /* grid-template-columns: repeat(auto-fit, minmax(min-content, max-content)); */
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: auto 1fr;
     grid-gap: 48px 40px;
     grid-template-areas:"title website"
                         "image paragraph";
+    font-family: 'Inter', Arial, sans-serif;
 }
 
 .place:first-child {
@@ -29,7 +30,7 @@
     }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 650px) {
     .place {
         margin-top: 50px;
         display: grid;
