@@ -1,7 +1,7 @@
 .root {
     position: relative;
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
     background: #2A2C2F;
     font-family: 'inter', 'Helvetica Neue', Arial, sans-serif;
     -moz-osx-font-smoothing: grayscale;
