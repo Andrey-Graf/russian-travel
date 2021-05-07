@@ -7,11 +7,10 @@
     justify-content: center;
     box-sizing: border-box;
     z-index: 0;
-    overflow: hidden;
     text-decoration: none;
     min-height: 740px;
-    background: url(../../../images/cover-trains.jpg);
-    background-size: 100% 100%;
+    background: url(../../../images/cover-trains.jpg) 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -47,8 +46,8 @@
     }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 390px) {
     .cover__overlay {
         min-height: 200px;
-    }
+}
 }
